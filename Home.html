@@ -4,13 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+
+    <style>
+        
+.main_home {
+  height: 1000px;
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  margin-top: 5px;
+  background-color: pink;
+  height: 450px;
+  width: 848px;
+  /* border: 2px solid red; */
+}
+
+.logo1 h2 {
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+.para p {
+  color: black;
+  margin-top: 70px;
+  text-align: center;
+  text-align: justify;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 845px) {
+  .main_home {
+    height: 400px;
+    width: 100%;
+  }
+
+  .para p {
+    width: 100%;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (max-width: 454px) {
+  .main_home {
+    height: 500px;
+    width: 100%;
+  }
+
+  .logo h1 {
+    font-size: 41px;
+  }
+}
+@media screen and (max-width: 291px) {
+      .main_home {
+        height: 700px;
+        width: 100%;
+    }
+
+    .home{
+      height: 600px;
+      width: 100%;
+    }
+}
+    </style>
+   
 </head>
 <body>
     <section class="main_home">
 
         <div class="home">
-            <div class="logo"><h2>Home</h2></div>
+            <div class="logo1"><h2>Home</h2></div>
             <div class="para">
                 <p>Hi, I'm Rupesh Kumar
                     BCA Student | Aspiring Full-Stack Developer
