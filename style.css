@@ -79,7 +79,7 @@ body {
     width: 182px;
   }
 
-  .hero{
+  .hero {
     height: 700px;
   }
 }
@@ -133,10 +133,8 @@ body {
   }
 }
 @media screen and (max-width: 452px) {
-
-  #header{
+  #header {
     height: 105px;
-
   }
 
   .logo h1 {
@@ -147,24 +145,16 @@ body {
     margin: 5px;
     text-align: center;
     font-size: 12px;
-
-  
   }
 
-  .hero{
+  .hero {
     margin-top: 0;
   }
-
-
 }
-
-
-
-
 
 /* Home  */
 
-.main_home{
+.main_home {
   height: 1000px;
   width: 100%;
   /* border: 2px solid red; */
@@ -172,7 +162,7 @@ body {
   justify-content: center;
 }
 
-.home{
+.home {
   margin-top: 5px;
   background-color: pink;
   height: 450px;
@@ -182,21 +172,50 @@ body {
 
 .logo h1 {
   text-align: center;
-  background-color:red ;
+  background-color: red;
   color: white;
 }
 
-.para p{
+.para p {
   color: black;
   margin-top: 70px;
   text-align: center;
   text-align: justify;
   font-size: 20px;
   letter-spacing: 1.5px;
-
 }
 
+@media screen and (max-width: 845px) {
+  .main_home {
+    height: 400px;
+    width: 100%;
+  }
 
+  .para p {
+    width: 100%;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (max-width: 454px) {
+  .main_home {
+    height: 500px;
+    width: 100%;
+  }
 
+  .logo h1 {
+    font-size: 41px;
+  }
+}
+@media screen and (max-width: 291px) {
+      .main_home {
+        height: 700px;
+        width: 100%;
+    }
+
+    .home{
+      height: 600px;
+      width: 100%;
+    }
+}
 
 
