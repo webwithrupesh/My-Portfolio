@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0f172a;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #1e293b;
+  height: 85px;
+  /* border: 2px solid green; */
+}
+
+.logo {
+  color: white;
+  margin: 30px;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 30px;
+  /* border: 2px solid red; */
+}
+.navbar ul li {
+  list-style: none;
+  margin-right: 25px;
+  font-size: 20px;
+}
+.navbar ul li a {
+  color: white;
+}
+.hero {
+  /* border: 2px solid red; */
+  height: 365px;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box1 p {
+  margin-top: 15px;
+  font-size: 19px;
+}
+.box2 img {
+  height: 300px;
+  width: 286px;
+  border-radius: 5px;
+}
+
+.box {
+  height: 300px;
+  width: 19%;
+  color: white;
+  /* border: 2px solid red; */
+}
+
+#element {
+  color: rgb(232, 2, 152);
+  font-size: 25px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1345px) {
+  .box {
+    width: 23%;
+  }
+  .box2 img {
+    width: 303px;
+  }
+  .box2 img {
+    width: 182px;
+  }
+
+  .hero{
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  #header {
+    flex-direction: column;
+    height: 130px;
+  }
+  .logo {
+    text-align: center;
+  }
+
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+
+    height: 31px;
+  }
+
+  .box {
+    width: 38%;
+    height: 300px;
+    text-align: center;
+  }
+
+  .box2 img {
+    width: 280px;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    height: 700px;
+  }
+}
+@media screen and (max-width: 507px) {
+  .hero {
+    flex-direction: column-reverse;
+    height: 700px;
+    width: 100%;
+
+    /* border: 2px solid red; */
+  }
+  .navbar ul {
+    font-size: 15px;
+  }
+  .box {
+    width: 92%;
+    height: 323px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 452px) {
+
+  #header{
+    height: 105px;
+
+  }
+
+  .logo h1 {
+    font-size: 12px;
+  }
+
+  .navbar ul li {
+    margin: 5px;
+    text-align: center;
+    font-size: 12px;
+
+  
+  }
+
+  .hero{
+    margin-top: 0;
+  }
+
+
+}
+
+
+
