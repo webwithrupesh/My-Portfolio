@@ -160,3 +160,43 @@ body {
 
 
 
+
+
+/* Home  */
+
+.main_home{
+  height: 1000px;
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.home{
+  margin-top: 5px;
+  background-color: pink;
+  height: 450px;
+  width: 848px;
+  /* border: 2px solid red; */
+}
+
+.logo h1 {
+  text-align: center;
+  background-color:red ;
+  color: white;
+}
+
+.para p{
+  color: black;
+  margin-top: 70px;
+  text-align: center;
+  text-align: justify;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+
+}
+
+
+
+
+
