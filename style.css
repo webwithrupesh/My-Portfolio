@@ -9,7 +9,11 @@ body {
   color: white;
 }
 #header{
-border: 2px solid red;
+  background: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+   
+/* border: 2px solid red; */
 height: 60px;
 }
 .logo h1{
@@ -23,7 +27,7 @@ height: 60px;
 .navbar{
   display: flex;
   justify-content: space-around;
-  margin: 15px;
+  margin: 25px;
 }
 .navbar ul{
   display: flex;
@@ -44,7 +48,7 @@ height: 60px;
 .box{
   height: 300px;
   width: 24%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   min-width: 400px;
 
   
@@ -66,10 +70,12 @@ height: 60px;
 .hero{
   height: 700px;
   width: 100%;
+;
   display: flex;
   justify-content: space-around;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-top: 50px;
+
 }
 
 .box img{
@@ -108,7 +114,15 @@ height: 60px;
  
   }
   .navbar ul {
-    margin-top: 13px;
+    width: 70%;
+
+    
+
+
+  }
+  .navbar ul  li{
+    font-size: 20px;
+   
     
 
 
@@ -119,6 +133,16 @@ height: 60px;
     align-items: center;
     margin-top: 25px;
   }
+  .box img {
+    height: 300px;
+    width: 42%;
+    min-width: 300px;
+    max-width: 238px;
+    border-radius: 5px;
+}
+
+
+
 
 }
 @media screen and (max-width:574px){
@@ -131,17 +155,28 @@ height: 60px;
     height: 70px;
     width: 100%;
   }
-  .navbar ul li{
-    font-size: 12px;
+  .navbar ul{
+    width: 100%;
 
   }
+  .navbar ul li{
+    font-size: 17px;
+
+  }
+  .navbar ul {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
   .logo h1{
     font-size: 20px;
+    
   }
   .box{
     width:60%;
     height: 300px;
-    min-width: 300px;
+    min-width: 238px;
 
   }
   .box1 p{
@@ -153,7 +188,7 @@ height: 60px;
   .box img{
     width:60%;
     height: 300px;
-    min-width: 300px;
+    min-width: 238px;
 
   }
   .box1 .w{
@@ -167,7 +202,7 @@ height: 60px;
     margin-top: 20px;
   }
 }
-@media screen and (max-width:350px){
+@media screen and (max-width:443px){
   #header{
     height: 60px;
     width: 100%;
@@ -184,7 +219,7 @@ height: 60px;
   }
 
   .navbar ul li{
-    font-size: 8px;
+    font-size: 13px;
    
     
     
@@ -223,6 +258,38 @@ height: 60px;
 
   
 }
+@media screen and (max-width:384px){
+  #header{
+    height: 50px;
+    width: 100%;
+  }
+
+  .navbar{
+    height: 50px;
+    width: 100%;
+
+  }
+  .navbar ul{
+    width: 100%;
+  
+
+  }
+  .navbar ul li{
+    margin-right: 10px;
+
+    
+  
+
+  }
+
+
+  
+}
+
+
+
+
+
 
 
 
