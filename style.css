@@ -9,7 +9,7 @@ body {
   color: white;
 }
 #header{
-/* border: 2px solid red; */
+border: 2px solid red;
 height: 60px;
 }
 .logo h1{
@@ -44,20 +44,22 @@ height: 60px;
 .box{
   height: 300px;
   width: 24%;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   min-width: 400px;
 
   
 
   
 }
-.box1 p{
+.b{
   margin-top: 30px;
+  font-size: 30px;
 
   
 }
-.box1 w{
+.w{
   margin-top: 30px;
+  font-size:30px ;
 
   
 }
@@ -66,7 +68,7 @@ height: 60px;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   margin-top: 50px;
 }
 
@@ -84,7 +86,7 @@ height: 60px;
 
   color: #00ffc7;
 }
-.element{
+#element{
   margin-top: 45px;
 
 }
@@ -161,10 +163,66 @@ height: 60px;
   .hero{
     height: 700px;
   }
+  .element{
+    margin-top: 20px;
+  }
 }
-/* @media screen and (max-width:574px){
+@media screen and (max-width:350px){
+  #header{
+    height: 60px;
+    width: 100%;
+  }
+  .navbar{
+    height: 60px;
+    width: 100%;
+    
+  }
+  .navbar ul{
+    height: 60px;
+    width:77% ;
+    
+  }
+
+  .navbar ul li{
+    font-size: 8px;
+   
+    
+    
+  }
+  #element{
+    margin-top: 20px;
+  }
+
+  .box {
+        width: 60%;
+        height: 300px;
+        min-width: 200px;
+    }
+
+    .box img {
+        width: 60%;
+        height: 300px;
+        min-width: 200px;
+    }
+    .box1 p {
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .box1 .w {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .box h2{
+      font-size: 21px;
+    }
+
+    #element{
+      font-size: 22px;
+    }
+
   
-} */
+}
 
 
 
