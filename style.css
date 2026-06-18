@@ -8,10 +8,15 @@ body {
   font-family: "Ubuntu", sans-serif;
   color: white;
 }
+html {
+  scroll-behavior: smooth;
+}
 #header {
   background: rgba(15, 23, 42, 0.9);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
 
   /* border: 2px solid red; */
   height: 60px;
@@ -21,12 +26,12 @@ body {
 }
 
 .box h2 {
-  font-size: 34px;
+  font-size: 44px;
 }
 .navbar {
   display: flex;
   justify-content: space-around;
-  margin: 25px;
+  padding-top: 10px;
 }
 .navbar ul {
   display: flex;
@@ -38,6 +43,7 @@ body {
 }
 .navbar ul li a {
   color: white;
+  cursor: pointer;
 }
 .box {
   height: 300px;
@@ -54,12 +60,13 @@ body {
   font-size: 30px;
 }
 .hero {
-  height: 700px;
+  height: 625px;
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   /* border: 2px solid red; */
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .box img {
@@ -79,153 +86,446 @@ body {
   margin-top: 45px;
 }
 
-@media screen and (max-width: 884px) {
-  #header {
-    height: 100px;
-    width: 100%;
-  }
-  .navbar {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
-  .navbar ul {
-    width: 70%;
-  }
-  .navbar ul li {
-    font-size: 20px;
-  }
-  .hero {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    margin-top: 25px;
-  }
-  .box img {
-    height: 300px;
-    width: 42%;
-    min-width: 300px;
-    max-width: 238px;
-    border-radius: 5px;
-  }
+/* Home */
+#home {
+  height: 225px;
+  width: 100%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }
-@media screen and (max-width: 574px) {
-  #header {
-    height: 70px;
-    width: 100%;
-  }
-  .navbar {
-    height: 70px;
-    width: 100%;
-  }
-  .navbar ul {
-    width: 100%;
-  }
-  .navbar ul li {
-    font-size: 17px;
-  }
-  .navbar ul {
-    width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-  .logo h1 {
-    font-size: 20px;
-    margin-top: 14px;
-  }
-  .box {
-    width: 60%;
-    height: 300px;
-    min-width: 238px;
-  }
-  .box1 p {
-    margin-top: 7px;
-    font-size: 20px;
-  }
-  .box img {
-    width: 60%;
-    height: 300px;
-    min-width: 238px;
-  }
-  .box1 .w {
-    font-size: 20px;
-    margin-top: 7px;
-  }
+.box3 {
+  height: 225px;
+  width: 80%;
+  /* border: 2px solid green; */
+  min-width: 400px;
+  box-sizing: 0px 0px 20px white;
+}
+
+.box3 p {
+  text-align: justify;
+  padding-top: 25px;
+  word-spacing: 2px;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+/* About */
+#about {
+  height: 400px;
+  width: 100%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.logo2 h1 {
+  text-align: center;
+  color: violet;
+  padding-top: 18px;
+}
+.logo1 h1 {
+  text-align: center;
+  color: red;
+  padding-top: 18px;
+}
+.box2 {
+  height: 400px;
+  width: 80%;
+  /* border: 2px solid green; */
+  min-width: 400px;
+  box-sizing: 0px 0px 20px white;
+}
+
+.box2 p {
+  text-align: justify;
+  padding-top: 25px;
+  word-spacing: 2px;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+/*  skills */
+#skills {
+  height: 500px;
+  width: 100%;
+  /* border: 2px solid yellow; */
+  padding-top: 50px;
+}
+.logo4 h1 {
+  text-align: center;
+  color: red;
+  padding-top: 18px;
+}
+
+.box4 {
+  height: 400px;
+  width: 100%;
+  /* border: 2px solid green; */
+  min-width: 400px;
+  box-sizing: 0px 0px 20px white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.s4 {
+  height: 300px;
+  width: 300px;
+  /* border: 2px solid red; */
+}
+.s4 h1 {
+  color: rgb(27, 164, 202);
+}
+
+.s4 ol {
+  list-style-position: inside;
+  padding-top: 20px;
+}
+.s4 ol li {
+  font-size: 25px;
+  padding-top: 10px;
+}
+#Education {
+  height: 500px;
+  width: 100%;
+  /* border: 2px solid yellow; */
+  padding-top: 50px;
+}
+.qualification {
+  height: 400px;
+  width: 100%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  height: 200px;
+  width: 80%;
+  text-align: center;
+  font-size: 25px;
+}
+
+#contact {
+  height: 458px;
+  width: 100%;
+  /* border: 2px solid yellow; */
+}
+
+.conbox {
+  height: 400px;
+  width: 100%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.socialmedia {
+  width: 60%;
+  height: 300px;
+  /* border: 2px solid red; */
+
+  padding-top: 70px;
+  text-align: justify;
+}
+.socialmedia p {
+  font-size: 50px;
+  line-height: 1.5;
+}
+.socialmedia a {
+  width: 300px;
+  margin: 0px 50px;
+  font-size: 50px;
+}
+
+.footer {
+  border: 2px solid green;
+  background-color: black;
+  color: white;
+}
+.footer p {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Responsive */
+
+@media (max-width: 851px) {
   .hero {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 10px;
     height: 700px;
   }
-  .element {
-    margin-top: 20px;
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px yellow; */
+    padding-top: 0;
+  }
+  #header {
+    height: 80px;
+  }
+  .navbar {
+    height: 80px;
+    /* border: 2px solid green; */
+  }
+  #home {
+    height: 357px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .box3 {
+    height: 300px;
+    width: 80%;
+    min-width: 300px;
+  }
+  .logo2 h1 {
+    text-align: center;
+    color: violet;
+  }
+
+  #about {
+    height: 570px;
+  }
+
+  .box2 {
+    /* border: 2px solid red; */
+    height: 512px;
+    width: 80%;
+    min-width: 400px;
+  }
+
+  .box2 p {
+    text-align: justify;
+    padding-top: 10px;
+    word-spacing: 2px;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .box4 {
+    flex-direction: column;
+    height: 633px;
+    gap: 10px;
+  }
+
+  #skills {
+    height: 700px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+  }
+
+  .logo4 h1 {
+    text-align: center;
+    color: red;
+  }
+  .s4 {
+    width: 60%;
+  }
+  .s4 h1 {
+    padding-top: 20px;
+  }
+  .socialmedia p {
+    font-size: 23px;
+    line-height: 1.5;
+  }
+  .socialmedia a {
+    font-size: 30px;
+    margin: 30px 20px;
+  }
+  .socialmedia {
+    width: 60%;
+    height: 300px;
+    /* border: 2px solid red; */
+    padding-top: 40px;
+    text-align: justify;
+  }
+  .footer p {
+    font-size: 15px;
+    text-align: center;
   }
 }
-@media screen and (max-width: 443px) {
+
+@media (max-width: 674px) {
   #header {
-    height: 60px;
+    height: 70px;
     width: 100%;
   }
   .navbar {
-    height: 60px;
+    height: 70px;
     width: 100%;
   }
-  .navbar ul {
-    height: 60px;
-    width: 77%;
+  .navbar ul li {
+    font-size: 12px;
   }
 
-  .navbar ul li {
-    font-size: 13px;
-  }
-  #element {
-    margin-top: 20px;
+  .logo h1 {
+    font-size: 20px;
   }
 
   .box {
-    width: 60%;
     height: 300px;
-    min-width: 250px;
+    width: 20%;
+    /* border: 2px solid red; */
+    min-width: 300px;
   }
-
-  .box img {
-    width: 60%;
-    height: 300px;
-    min-width: 250px;
-  }
-  .box1 p {
-    margin-top: 5px;
-    font-size: 15px;
-  }
-  .box1 .w {
-    font-size: 15px;
-    margin-top: 5px;
-  }
-
   .box h2 {
-    font-size: 21px;
-  }
-
-  #element {
     font-size: 22px;
   }
-}
-@media screen and (max-width: 384px) {
-  #header {
-    height: 50px;
-    width: 100%;
+
+  .b {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .w {
+    margin-top: 30px;
+    font-size: 20px;
   }
 
-  .navbar {
-    height: 62px;
+  #home {
+    height: 275px;
     width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
   }
-  .navbar ul {
+
+  #about {
+    height: 454px;
+  }
+
+  #skills {
+    height: 458px;
     width: 100%;
+    /* border: 2px solid yellow; */
   }
-  .navbar ul li {
-    margin-right: 10px;
+
+  #Education {
+    height: 361px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    padding: 0px;
+   
+}
+
+.qualification {
+    height: 231px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#Education {
+        height: 297px;
+        width: 100%;
+        /* border: 2px solid yellow; */
+        padding: 0px;
+    }
+
+
+ .socialmedia {
+        width: 100%;
+        height: 217px;
+        /* border: 2px solid red; */
+        padding-top: 40px;
+        text-align: justify;
+    }
+
+    .footer p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .box img {
+    height: 300px;
+    width: 42%;
+    min-width: 272px;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.box {
+        height: 300px;
+        width: 20%;
+        /* border: 2px solid red; */
+        min-width: 272px;
+    }
+
+
+
+
+  .box3 p {
+    text-align: justify;
+    padding-top: 20px;
+    word-spacing: 2px;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .box2 p {
+    text-align: justify;
+    padding-top: 10px;
+    word-spacing: 2px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .box2 {
+    /* border: 2px solid red; */
+    height: 512px;
+    width: 80%;
+    min-width: 200px;
+  }
+
+  .s4 ol li {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+
+  .box4 {
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid green; */
+    min-width: 400px;
+    box-sizing: 0px 0px 20px white;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo4 h1 {
+    font-size: 23px;
+  }
+
+  table {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .socialmedia {
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid red; */
+    padding-top: 40px;
+    text-align: justify;
+  }
+
+  footer p {
+    font-size: 11px;
+    text-align: center;
   }
 }
