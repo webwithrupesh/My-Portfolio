@@ -225,21 +225,27 @@ table {
 }
 
 .socialmedia {
-  width: 60%;
+  width: 100%;
   height: 300px;
   /* border: 2px solid red; */
+  text-align: center;
 
   padding-top: 70px;
-  text-align: justify;
+ 
 }
 .socialmedia p {
-  font-size: 50px;
+  font-size: 20px;
   line-height: 1.5;
+
 }
 .socialmedia a {
   width: 300px;
   margin: 0px 50px;
   font-size: 50px;
+}
+.socialmedia h2 {
+  font-size: 30px;
+
 }
 
 .footer {
@@ -336,6 +342,10 @@ table {
   .socialmedia p {
     font-size: 23px;
     line-height: 1.5;
+  }
+  .socialmedia h2 {
+    font-size: 18px;
+   
   }
   .socialmedia a {
     font-size: 30px;
