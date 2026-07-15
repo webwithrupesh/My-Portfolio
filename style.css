@@ -22,28 +22,30 @@ html {
   height: 60px;
 }
 .logo h1 {
-  font-size: 36px;
+  font-size: 2rem;
 }
 
 .box h2 {
-  font-size: 44px;
+  font-size: 2.5rem;
 }
 .navbar {
   display: flex;
   justify-content: space-around;
-  padding-top: 10px;
+  padding-top: 1rem;
 }
 .navbar ul {
   display: flex;
 }
 .navbar ul li {
   list-style: none;
-  margin-right: 30px;
+  margin-right: 1.75rem;
   font-size: 25px;
+  
 }
 .navbar ul li a {
   color: white;
   cursor: pointer;
+  text-decoration: none;
 }
 .box {
   height: 300px;
@@ -52,12 +54,12 @@ html {
   min-width: 400px;
 }
 .b {
-  margin-top: 30px;
-  font-size: 30px;
+  margin-top: 1.50rem;
+  font-size: 1.50rem;
 }
 .w {
-  margin-top: 30px;
-  font-size: 30px;
+  margin-top:1.50rem;
+  font-size: 1.50rem;
 }
 .hero {
   height: 625px;
@@ -66,7 +68,7 @@ html {
   justify-content: space-around;
   align-items: center;
   /* border: 2px solid red; */
-  margin-top: 25px;
+  margin-top: 1.40rem;
 }
 
 .box img {
@@ -74,7 +76,7 @@ html {
   width: 42%;
   min-width: 300px;
   max-width: 300px;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 #element {
@@ -83,7 +85,7 @@ html {
   color: #00ffc7;
 }
 #element {
-  margin-top: 45px;
+  margin-top: 2.5rem;
 }
 
 /* Home */
@@ -93,7 +95,7 @@ html {
   /* border: 2px solid yellow; */
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 2.75rem;
 }
 .box3 {
   height: 225px;
@@ -105,9 +107,9 @@ html {
 
 .box3 p {
   text-align: justify;
-  padding-top: 25px;
+  padding-top: 1.50rem;
   word-spacing: 2px;
-  font-size: 21px;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
@@ -118,18 +120,18 @@ html {
   /* border: 2px solid yellow; */
   display: flex;
   justify-content: center;
-  padding-top: 25px;
+  padding-top: 1.50rem;
 }
 
 .logo2 h1 {
   text-align: center;
   color: violet;
-  padding-top: 18px;
+  padding-top: 1rem;
 }
 .logo1 h1 {
   text-align: center;
   color: red;
-  padding-top: 18px;
+  padding-top: 1rem;
 }
 .box2 {
   height: 400px;
@@ -141,9 +143,9 @@ html {
 
 .box2 p {
   text-align: justify;
-  padding-top: 25px;
+  padding-top: 1.25rem;
   word-spacing: 2px;
-  font-size: 21px;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
@@ -152,12 +154,12 @@ html {
   height: 500px;
   width: 100%;
   /* border: 2px solid yellow; */
-  padding-top: 50px;
+  padding-top: 2.75rem;
 }
 .logo4 h1 {
   text-align: center;
   color: red;
-  padding-top: 18px;
+  padding-top: 1rem;
 }
 
 .box4 {
@@ -181,11 +183,11 @@ html {
 
 .s4 ol {
   list-style-position: inside;
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 .s4 ol li {
-  font-size: 25px;
-  padding-top: 10px;
+  font-size: 1.25rem;
+  padding-top: 0.75rem;
 }
 #Education {
   height: 500px;
@@ -206,7 +208,7 @@ table {
   height: 200px;
   width: 80%;
   text-align: center;
-  font-size: 25px;
+  font-size: 1.25rem;
 }
 
 #contact {
@@ -230,21 +232,21 @@ table {
   /* border: 2px solid red; */
   text-align: center;
 
-  padding-top: 70px;
+  padding-top: 4rem;
  
 }
 .socialmedia p {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.5;
 
 }
 .socialmedia a {
   width: 300px;
-  margin: 0px 50px;
-  font-size: 50px;
+  margin: 0 2.75rem;
+  font-size: 2.75rem;
 }
 .socialmedia h2 {
-  font-size: 30px;
+  font-size: 1.75rem;
 
 }
 
@@ -254,288 +256,10 @@ table {
   color: white;
 }
 .footer p {
-  font-size: 30px;
+  font-size: 1.75rem;
   text-align: center;
 }
 
 /* Responsive */
 
-@media (max-width: 851px) {
-  .hero {
-    flex-direction: column-reverse;
-    justify-content: center;
-    gap: 10px;
-    height: 700px;
-  }
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    /* border: 2px yellow; */
-    padding-top: 0;
-  }
-  #header {
-    height: 80px;
-  }
-  .navbar {
-    height: 80px;
-    /* border: 2px solid green; */
-  }
-  #home {
-    height: 357px;
-    width: 100%;
-    /* border: 2px solid yellow; */
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-  }
-  .box3 {
-    height: 300px;
-    width: 80%;
-    min-width: 300px;
-  }
-  .logo2 h1 {
-    text-align: center;
-    color: violet;
-  }
 
-  #about {
-    height: 570px;
-  }
-
-  .box2 {
-    /* border: 2px solid red; */
-    height: 512px;
-    width: 80%;
-    min-width: 400px;
-  }
-
-  .box2 p {
-    text-align: justify;
-    padding-top: 10px;
-    word-spacing: 2px;
-    font-size: 17px;
-    line-height: 1.5;
-  }
-
-  .box4 {
-    flex-direction: column;
-    height: 633px;
-    gap: 10px;
-  }
-
-  #skills {
-    height: 700px;
-    width: 100%;
-    /* border: 2px solid yellow; */
-  }
-
-  .logo4 h1 {
-    text-align: center;
-    color: red;
-  }
-  .s4 {
-    width: 60%;
-  }
-  .s4 h1 {
-    padding-top: 20px;
-  }
-  .socialmedia p {
-    font-size: 23px;
-    line-height: 1.5;
-  }
-  .socialmedia h2 {
-    font-size: 18px;
-   
-  }
-  .socialmedia a {
-    font-size: 30px;
-    margin: 30px 20px;
-  }
-  .socialmedia {
-    width: 60%;
-    height: 300px;
-    /* border: 2px solid red; */
-    padding-top: 40px;
-    text-align: justify;
-  }
-  .footer p {
-    font-size: 15px;
-    text-align: center;
-  }
-}
-
-@media (max-width: 674px) {
-  #header {
-    height: 70px;
-    width: 100%;
-  }
-  .navbar {
-    height: 70px;
-    width: 100%;
-  }
-  .navbar ul li {
-    font-size: 12px;
-  }
-
-  .logo h1 {
-    font-size: 20px;
-  }
-
-  .box {
-    height: 300px;
-    width: 20%;
-    /* border: 2px solid red; */
-    min-width: 300px;
-  }
-  .box h2 {
-    font-size: 22px;
-  }
-
-  .b {
-    margin-top: 30px;
-    font-size: 20px;
-  }
-  .w {
-    margin-top: 30px;
-    font-size: 20px;
-  }
-
-  #home {
-    height: 275px;
-    width: 100%;
-    /* border: 2px solid yellow; */
-    display: flex;
-    justify-content: center;
-  }
-
-  #about {
-    height: 454px;
-  }
-
-  #skills {
-    height: 458px;
-    width: 100%;
-    /* border: 2px solid yellow; */
-  }
-
-  #Education {
-    height: 361px;
-    width: 100%;
-    /* border: 2px solid yellow; */
-    padding: 0px;
-   
-}
-
-.qualification {
-    height: 231px;
-    width: 100%;
-    /* border: 2px solid yellow; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-#Education {
-        height: 297px;
-        width: 100%;
-        /* border: 2px solid yellow; */
-        padding: 0px;
-    }
-
-
- .socialmedia {
-        width: 100%;
-        height: 217px;
-        /* border: 2px solid red; */
-        padding-top: 40px;
-        text-align: justify;
-    }
-
-    .footer p {
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .box img {
-    height: 300px;
-    width: 42%;
-    min-width: 272px;
-    max-width: 300px;
-    border-radius: 5px;
-}
-
-.box {
-        height: 300px;
-        width: 20%;
-        /* border: 2px solid red; */
-        min-width: 272px;
-    }
-
-
-
-
-  .box3 p {
-    text-align: justify;
-    padding-top: 20px;
-    word-spacing: 2px;
-    font-size: 17px;
-    line-height: 1.5;
-  }
-  .box2 p {
-    text-align: justify;
-    padding-top: 10px;
-    word-spacing: 2px;
-    font-size: 12px;
-    line-height: 1.5;
-  }
-
-  .box2 {
-    /* border: 2px solid red; */
-    height: 512px;
-    width: 80%;
-    min-width: 200px;
-  }
-
-  .s4 ol li {
-    font-size: 12px;
-    padding-top: 5px;
-  }
-
-  .box4 {
-    height: 400px;
-    width: 100%;
-    /* border: 2px solid green; */
-    min-width: 400px;
-    box-sizing: 0px 0px 20px white;
-    display: flex;
-    /* justify-content: space-around; */
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .logo4 h1 {
-    font-size: 23px;
-  }
-
-  table {
-    height: 200px;
-    width: 100%;
-    text-align: center;
-    font-size: 15px;
-  }
-
-  .socialmedia {
-    width: 100%;
-    height: 300px;
-    /* border: 2px solid red; */
-    padding-top: 40px;
-    text-align: justify;
-  }
-
-  footer p {
-    font-size: 11px;
-    text-align: center;
-  }
-}
